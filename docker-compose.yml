@@ -6,9 +6,9 @@ services:
     image: mariadb:10.6.8
     environment:
       MARIADB_ROOT_PASSWORD: rootpassword
-      MARIADB_DATABASE: handball_online
-      MARIADB_USER: ho
-      MARIADB_PASSWORD: password
+      MARIADB_DATABASE: database_name
+      MARIADB_USER: db_user
+      MARIADB_PASSWORD: db_password
     ports:
       - '4306:3306'
   php:
